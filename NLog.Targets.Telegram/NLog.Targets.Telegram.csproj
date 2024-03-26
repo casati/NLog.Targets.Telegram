@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>    
+    <PackageId>NLog.Targets.Telegram</PackageId>
+    <Version>1.0.1</Version>
+    <Description>NLog target for Telegram</Description>
+    <Authors>Matteo Casati</Authors>
+    <Company>mcasati.com</Company>
+    <PackageTags>NLog;Logger;Targets;Telegram;Channel</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageProjectUrl>https://github.com/casati/NLog.Targets.Telegram</PackageProjectUrl>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/casati/NLog.Targets.Telegram.git</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>    
+    <None Include="../LICENSE" Pack="true" PackagePath="\" />
+    <None Include="../icon.png" Pack="true" PackagePath="\" />
+    <None Include="../README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NLog" Version="5.2.8" />    
+  </ItemGroup>
+
+</Project>
