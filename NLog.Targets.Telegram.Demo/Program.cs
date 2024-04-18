@@ -1,9 +1,4 @@
-﻿
-using System;
-using NLog;
-
-
-var logger = LogManager.GetCurrentClassLogger();
+﻿var logger = LogManager.GetCurrentClassLogger();
 
 logger.Debug("Program has started");
 

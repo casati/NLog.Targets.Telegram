@@ -1,10 +1,4 @@
-﻿using NLog.Common;
-using NLog.Config;
-using System;
-using System.Net;
-using System.Net.Http;
-
-namespace NLog.Targets.Telegram
+﻿namespace NLog.Targets.Telegram
 {
     [Target("Telegram")]
     public class TelegramTarget : TargetWithLayout
